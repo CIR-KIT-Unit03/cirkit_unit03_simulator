@@ -5,7 +5,7 @@
 
 ## Main Subscribed Topic
 - `third_robot/cmd_vel`
-  - `Twist`型。速度指令値。
+  - `Twist`型。速度指令値。teleopしてみて下さい。
 
 ## Main Published Topic
 - `third_robot/laser/base_scan`
@@ -19,7 +19,7 @@
 ```
 roslaunch third_robot_gazebo third_robot_world.launch 
 ```
-
+![gazebo_1](doc/fig/gazebo_1.png) 
 ### controller(robot state publisher)
 ```
 roslaunch third_robot_gazebo third_robot_control.launch 
@@ -29,3 +29,10 @@ roslaunch third_robot_gazebo third_robot_control.launch
 ```
 roslaunch third_robot_gazebo third_robot_rviz_test.launch
 ```
+![rviz_1](doc/fig/rviz_1.png) 
+
+
+## 惜しいところ
+- ホイールの`tf frame`が`rviz`に出てくれていません。
+- でも、`teleop`は効いています。
+- `controller`の設定の辺りがまだ曖昧かも。
