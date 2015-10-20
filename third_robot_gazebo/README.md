@@ -12,7 +12,10 @@
   - `LaserScan`型。前方スキャン。
 - `third_robot/laser/base_scan1`
   - `LaserScan`型。下方スキャン。
-- 前方カメラもすぐやります。
+- /third_robot/camera1
+  - /camera_info
+  - /image_raw
+    - 画像です。
 
 ## How to launch
 ### gazebo
@@ -29,7 +32,7 @@ roslaunch third_robot_gazebo third_robot_control.launch
 ```
 roslaunch third_robot_gazebo third_robot_rviz_test.launch
 ```
-![rviz_1](doc/fig/rviz_1.png) 
+![rviz_2](doc/fig/rviz_2.png) 
 
 
 ## 惜しいところ
