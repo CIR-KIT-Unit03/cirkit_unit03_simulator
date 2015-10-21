@@ -1,0 +1,23 @@
+third_robot:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50  
+  
+  # Position Controllers ---------------------------------------
+  #left_front_wheel_position_controller:
+  #  type: effort_controllers/JointPositionController
+  #  joint: base_to_left_front_wheel
+  #  pid: {p: 100.0, i: 0.01, d: 10.0}
+  #right_front_wheel_position_controller:
+  #  type: effort_controllers/JointPositionController
+  #  joint: base_to_right_front_wheel
+  #  pid: {p: 100.0, i: 0.01, d: 10.0}
+  #left_rear_wheel_position_controller:
+  #  type: effort_controllers/JointPositionController
+  #  joint: base_to_left_rear_wheel
+  #  pid: {p: 100.0, i: 0.01, d: 10.0}
+  #right_rear_wheel_position_controller:
+  #  type: effort_controllers/JointPositionController
+  #  joint: base_to_right_rear_wheel
+  #  pid: {p: 100.0, i: 0.01, d: 10.0}
