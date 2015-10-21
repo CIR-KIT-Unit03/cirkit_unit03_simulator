@@ -32,10 +32,5 @@ roslaunch third_robot_gazebo third_robot_control.launch
 ```
 roslaunch third_robot_gazebo third_robot_rviz_test.launch
 ```
-![rviz_2](doc/fig/rviz_2.png) 
+![rviz_3](doc/fig/rviz_3.png) 
 
-
-## 惜しいところ
-- ホイールの`tf frame`が`rviz`に出てくれていません。
-- でも、`teleop`は効いています。
-- `controller`の設定の辺りがまだ曖昧かも。
