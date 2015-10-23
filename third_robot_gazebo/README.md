@@ -11,7 +11,9 @@
 - `third_robot/laser/base_scan`
   - `LaserScan`型。前方スキャン。
 - `third_robot/laser/base_scan1`
-  - `LaserScan`型。下方スキャン。
+  - `LaserScan`型。前方下方スキャン。
+- `third_robot/laser/base_scan2`
+  - `LaserScan`型。後方スキャン。
 - /third_robot/camera1
   - /camera_info
   - /image_raw
@@ -22,7 +24,7 @@
 ```
 roslaunch third_robot_gazebo third_robot_world.launch 
 ```
-![gazebo_1](doc/fig/gazebo_1.png) 
+![gazebo_1](doc/fig/gazebo_2.png) 
 ### controller(robot state publisher)
 ```
 roslaunch third_robot_gazebo third_robot_control.launch 
@@ -32,5 +34,5 @@ roslaunch third_robot_gazebo third_robot_control.launch
 ```
 roslaunch third_robot_gazebo third_robot_rviz_test.launch
 ```
-![rviz_3](doc/fig/rviz_3.png) 
+![rviz_3](doc/fig/rviz_4.png) 
 
