@@ -1,16 +1,18 @@
-#third robot:
+#hird_robot:
 # Publish all joint states -----------------------------------
 joint_state_controller:
   type: joint_state_controller/JointStateController
   publish_rate: 50    
 
 # Wheel & Steer (rocker_bogie_controller should be used without namespace)
-steer_drive_controller:
-    type        : "steer_drive_controller/SteerDriveController"
-    left_wheel  : ['wheel_left_front_joint', 'wheel_left_middle_joint', 'wheel_left_back_joint']
-    right_wheel : ['wheel_right_front_joint', 'wheel_right_middle_joint', 'wheel_right_back_joint']
-    left_steer  : ['steer_left_front_joint', 'steer_left_back_joint']
-    right_steer : ['steer_right_front_joint', 'steer_right_back_joint']
+# steer_drive_controller:
+third_robot_diff_drive_controller:
+    #type        : "steer_drive_controller/SteerDriveController"
+    type        : "diff_drive_controller/DiffDriveController"
+    left_wheel  : ['base_to_left_front_wheel', 'base_to_left_rear_wheel']
+    right_wheel : ['base_to_right_front_wheel', 'base_to_right_rear_wheel']
+    #left_steer  : ['steer_left_front_joint', 'steer_left_back_joint']
+    #right_steer : ['steer_right_front_joint', 'steer_right_back_joint']
     publish_rate: 100
 
     pose_covariance_diagonal : [0.00001, 0.00001, 1000000000000.0, 1000000000000.0, 1000000000000.0, 0.001]
@@ -18,12 +20,13 @@ steer_drive_controller:
     wheel_separation_multiplier: 1.0
     wheel_radius_multiplier    : 1.0
     cmd_vel_timeout: 20
-    base_frame_id: base_footprint
+    base_frame_id: base_link
 
     enable_odom_tf: true
-    wheel_separation_w : 0.26
-    wheel_separation_h : 0.4
-    wheel_radius : 0.3
+    wheel_separation_w : 0.5
+    #wheel_separation_w : 0.26
+    #wheel_separation_h : 0.4
+    wheel_radius : 0.28
 
     linear:
       x:
