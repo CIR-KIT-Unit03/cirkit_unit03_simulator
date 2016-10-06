@@ -30,6 +30,10 @@ steer_drive_controller:
     #wheel_separation_h : 0.4
     wheel_radius : 0.28
 
+    gazebo:
+        virtual_rear_wheel: ['base_to_right_rear_wheel', 'base_to_left_rear_wheel']
+        virtual_front_steer: ['steer_right_front_joint', 'steer_left_front_joint']
+
     linear:
       x:
         has_velocity_limits    : true
