@@ -1,0 +1,3 @@
+gains:
+  base_to_right_rear_wheel:  {p: 1000.0, d: 10.0, i: 0.01, i_clamp: 3.0}
+  base_to_left_rear_wheel:   {p: 1000.0, d: 10.0, i: 0.01, i_clamp: 3.0}
