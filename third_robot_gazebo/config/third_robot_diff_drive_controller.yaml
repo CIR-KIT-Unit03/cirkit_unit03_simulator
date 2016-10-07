@@ -32,7 +32,7 @@ steer_drive_controller:
 
     gazebo:
         virtual_rear_wheel: ['base_to_right_rear_wheel', 'base_to_left_rear_wheel']
-        virtual_front_steer: ['steer_right_front_joint', 'steer_left_front_joint']
+        virtual_front_steer: ['base_to_right_front_steer', 'base_to_left_front_steer']
 
     linear:
       x:
