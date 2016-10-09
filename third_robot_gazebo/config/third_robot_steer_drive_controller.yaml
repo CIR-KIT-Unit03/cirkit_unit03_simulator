@@ -31,7 +31,7 @@ steer_drive_controller:
     enable_odom_tf: true
     wheel_separation_w : 0.5
     #wheel_separation_w : 0.26
-    #wheel_separation_h : 0.4
+    wheel_separation_h : 0.79
     wheel_radius : 0.28
 
     gazebo:
