@@ -15,6 +15,8 @@ steer_drive_controller:
     #right_steer : ['steer_right_front_joint', 'steer_right_back_joint']
     left_wheel  : ['base_to_left_rear_wheel']
     right_wheel : ['base_to_right_rear_wheel']
+    rear_wheels : ['base_to_right_rear_wheel', 'base_to_left_rear_wheel']
+    front_wheels: ['base_to_right_front_wheel', 'base_to_left_front_wheel']
     rear_wheel  : 'base_to_wheel'
     front_steer : 'base_to_steer'
     publish_rate: 100
@@ -33,8 +35,9 @@ steer_drive_controller:
     wheel_radius : 0.28
 
     gazebo:
-        virtual_rear_wheel: ['base_to_right_rear_wheel', 'base_to_left_rear_wheel']
-        virtual_front_steer: ['base_to_right_front_steer', 'base_to_left_front_steer']
+        virtual_rear_wheels  : ['base_to_right_rear_wheel', 'base_to_left_rear_wheel']
+        virtual_front_wheels: ['base_to_right_front_wheel', 'base_to_left_front_wheel']
+        virtual_front_steers : ['base_to_right_front_steer', 'base_to_left_front_steer']
 
     linear:
       x:
