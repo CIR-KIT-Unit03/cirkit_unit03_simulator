@@ -13,6 +13,8 @@ steer_drive_controller:
     #right_wheel : ['base_to_right_front_wheel', 'base_to_right_rear_wheel']
     #left_steer  : ['steer_left_front_joint', 'steer_left_back_joint']
     #right_steer : ['steer_right_front_joint', 'steer_right_back_joint']
+    left_wheel  : ['base_to_left_rear_wheel']
+    right_wheel : ['base_to_right_rear_wheel']
     rear_wheel  : 'base_to_wheel'
     front_steer : 'base_to_steer'
     publish_rate: 100
