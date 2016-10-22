@@ -19,8 +19,6 @@ steer_drive_controller:
     twist_covariance_diagonal: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
     wheel_separation_multiplier: 1.2
     wheel_radius_multiplier    : 0.5
-    linear_vel_multiplier      : 1.0
-    angle_vel_multiplier       : 1.0
     cmd_vel_timeout: 20
     base_frame_id: base_link
 
