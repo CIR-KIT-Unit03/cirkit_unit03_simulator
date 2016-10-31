@@ -33,9 +33,9 @@
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -model third_robot -param robot_description"/>
+	args="-urdf -model third_robot -param robot_description -x 0 -y 0 -z 1"/>
 
   <!-- ros_control third_robot launch file -->
-  <!--include file="$(find third_robot_control)/launch/third_robot_control.launch" /-->
+  <!--include file="$(find steer_drive_controller)/launch/steer_drive_test_setting.launch" /-->
 
 </launch>
