@@ -1,3 +1,28 @@
+<?xml version="1.0"?>
+<!--
+Software License Agreement (BSD)
+
+\file      clearpath_playpen.world
+\authors   Prasenjit Mukherjee <code@clearpathrobotics.com
+\copyright Copyright (c) 2015, Clearpath Robotics, Inc., All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that
+the following conditions are met:
+ * Redistributions of source code must retain the above copyright notice, this list of conditions and the
+   following disclaimer.
+ * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the 
+   following disclaimer in the documentation and/or other materials provided with the distribution.
+ * Neither the name of Clearpath Robotics nor the names of its contributors may be used to endorse or promote
+   products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WAR-
+RANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, IN-
+DIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT
+OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
 <sdf version='1.4'>
   <world name='default'>
     <light name='sun' type='directional'>
@@ -2978,130 +3003,130 @@
       <static>0</static>
     </model>
     <state world_name='default'>
-      <sim_time>1469 60000000</sim_time>
-      <real_time>172 526823676</real_time>
-      <wall_time>1477935407 763119331</wall_time>
+      <sim_time>1298 470000000</sim_time>
+      <real_time>1304 307193893</real_time>
+      <wall_time>1412023784 735639465</wall_time>
       <model name='Construction Barrel'>
-        <pose>7.00006 -2.54634 0.049891 0.000451 -1.4e-05 0.000387</pose>
+        <pose>7.00006 -2.54635 0.049999 4e-06 -0 0.000401</pose>
         <link name='link'>
-          <pose>7.00006 -2.54634 0.049891 0.000451 -1.4e-05 0.000387</pose>
+          <pose>7.00006 -2.54635 0.049999 4e-06 -0 0.000401</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_0'>
-        <pose>1.45178 -6.51127 0.049916 -0.000166 -0.000341 2.4e-05</pose>
+        <pose>1.45178 -6.51128 0.049999 -1e-06 -3e-06 3.8e-05</pose>
         <link name='link'>
-          <pose>1.45178 -6.51127 0.049916 -0.000166 -0.000341 2.4e-05</pose>
+          <pose>1.45178 -6.51128 0.049999 -1e-06 -3e-06 3.8e-05</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_1'>
-        <pose>-6.5048 3.98263 0.049879 0.000444 0.000126 -0.009608</pose>
+        <pose>-6.50482 3.9826 0.049999 4e-06 1e-06 -0.009616</pose>
         <link name='link'>
-          <pose>-6.5048 3.98263 0.049879 0.000444 0.000126 -0.009608</pose>
+          <pose>-6.50482 3.9826 0.049999 4e-06 1e-06 -0.009616</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_2'>
-        <pose>-6.45064 4.9964 0.049889 -0.000218 -0.0004 0.06497</pose>
+        <pose>-6.45065 4.99639 0.049999 -1e-06 -2e-06 0.064981</pose>
         <link name='link'>
-          <pose>-6.45064 4.9964 0.049889 -0.000218 -0.0004 0.06497</pose>
+          <pose>-6.45065 4.99639 0.049999 -1e-06 -2e-06 0.064981</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_3'>
-        <pose>-6.40172 6.01111 0.049871 -0.000133 -0.000482 -0.120725</pose>
+        <pose>-6.40174 6.01109 0.05 -1e-06 -1e-06 -0.120729</pose>
         <link name='link'>
-          <pose>-6.40172 6.01111 0.049871 -0.000133 -0.000482 -0.120725</pose>
+          <pose>-6.40174 6.01109 0.05 -1e-06 -1e-06 -0.120729</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_4'>
-        <pose>-6.00632 7.00881 0.049881 0.000442 0.000121 -0.049566</pose>
+        <pose>-6.00634 7.00879 0.049999 3e-06 -0 -0.04957</pose>
         <link name='link'>
-          <pose>-6.00632 7.00881 0.049881 0.000442 0.000121 -0.049566</pose>
+          <pose>-6.00634 7.00879 0.049999 3e-06 -0 -0.04957</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_5'>
-        <pose>-4.87564 7.00814 0.049921 -0.000156 -0.000328 0.146155</pose>
+        <pose>-4.87565 7.00813 0.049999 -1e-06 -3e-06 0.146162</pose>
         <link name='link'>
-          <pose>-4.87564 7.00814 0.049921 -0.000156 -0.000328 0.146155</pose>
+          <pose>-4.87565 7.00813 0.049999 -1e-06 -3e-06 0.146162</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_6'>
-        <pose>-3.84217 7.0413 0.049904 -8.9e-05 -0.000398 0.026591</pose>
+        <pose>-3.85615 7.02809 0.0897 -0.01028 -0.077931 0.017839</pose>
         <link name='link'>
-          <pose>-3.84217 7.0413 0.049904 -8.9e-05 -0.000398 0.026591</pose>
+          <pose>-3.85615 7.02809 0.0897 -0.01028 -0.077931 0.017839</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Barrel_7'>
-        <pose>-2.82547 7.05337 0.049911 0.00038 7.9e-05 0.054908</pose>
+        <pose>-2.95979 6.99802 0.049998 -3e-06 -7e-06 -0.017994</pose>
         <link name='link'>
-          <pose>-2.82547 7.05337 0.049911 0.00038 7.9e-05 0.054908</pose>
+          <pose>-2.95979 6.99802 0.049998 -3e-06 -7e-06 -0.017994</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Cone'>
-        <pose>-5.59121 -8 0.049946 -0.000244 -2.5e-05 0</pose>
+        <pose>-5.59121 -8 0.05 0 -1e-06 0</pose>
         <link name='link'>
-          <pose>-5.59121 -8 0.049946 -0.000244 -2.5e-05 0</pose>
+          <pose>-5.59121 -8 0.05 0 -1e-06 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Cone_0'>
-        <pose>6.99685 6.55732 0.04996 -3e-06 0.000177 -0.007012</pose>
+        <pose>6.99685 6.55732 0.05 -8.27181e-25 1e-06 -0.007012</pose>
         <link name='link'>
-          <pose>6.99685 6.55732 0.04996 -3e-06 0.000177 -0.007012</pose>
+          <pose>6.99685 6.55732 0.05 -8.27181e-25 1e-06 -0.007012</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Construction Cone_1'>
-        <pose>8.42887 -5 0.049169 -0.000193 6e-06 0</pose>
+        <pose>8.42887 -5 0.049999 0 3e-06 0</pose>
         <link name='link'>
-          <pose>8.42887 -5 0.049169 -0.000193 6e-06 0</pose>
+          <pose>8.42887 -5 0.049999 0 3e-06 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Dumpster'>
-        <pose>2.01809 8.87221 0.050844 6e-06 -0.00011 -0.188821</pose>
+        <pose>2.0181 8.87221 0.050916 -1.05879e-22 -3e-06 -0.188821</pose>
         <link name='link'>
-          <pose>2.01809 8.87221 0.050844 6e-06 -0.00011 -0.188821</pose>
+          <pose>2.0181 8.87221 0.050916 -1.05879e-22 -3e-06 -0.188821</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='Dumpster_0'>
-        <pose>-2.35047 -4.41044 0.050844 6e-06 -0.00011 2.08003</pose>
+        <pose>-2.35048 -4.41043 0.050918 0 -0 2.08003</pose>
         <link name='link'>
-          <pose>-2.35047 -4.41044 0.050844 6e-06 -0.00011 2.08003</pose>
+          <pose>-2.35048 -4.41043 0.050918 0 -0 2.08003</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -3296,51 +3321,6 @@
           <wrench>0 0 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='third_robot'>
-        <pose>-0.000348 0.010305 0.049139 -0.000217 5e-06 0.014922</pose>
-        <link name='base_link'>
-          <pose>-0.000348 0.010305 0.049139 -0.000217 5e-06 0.014922</pose>
-          <velocity>8e-06 2.4e-05 -0.087822 -0.002293 -4.7e-05 3e-06</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='left_front_wheel'>
-          <pose>0.405896 0.266418 0.189118 -0.000239 0.473633 0.014769</pose>
-          <velocity>-0.000478 0.000521 -0.089268 -0.002433 0.002697 -0.004433</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='left_rear_wheel'>
-          <pose>-0.384043 0.254635 0.189118 -0.000214 -0.254448 0.014977</pose>
-          <velocity>0.000187 0.000412 -0.089174 -0.002512 -0.001308 -3.7e-05</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='right_front_wheel'>
-          <pose>0.413339 -0.233527 0.189151 -0.000208 -0.024747 0.014799</pose>
-          <velocity>-4.5e-05 0.000545 -0.086222 -0.002519 -0.000254 -0.013118</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='right_rear_wheel'>
-          <pose>-0.376582 -0.245309 0.189152 -0.000209 -0.169294 0.014957</pose>
-          <velocity>0.000187 0.000414 -0.086164 -0.002539 -0.000943 7e-06</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='steer_left'>
-          <pose>0.405886 0.266457 0.349104 -0.000216 4e-06 0.014877</pose>
-          <velocity>-0.000226 0.000803 -0.088921 -0.0023 -2.4e-05 -0.004409</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-        <link name='steer_right'>
-          <pose>0.413334 -0.233488 0.349166 -0.000213 -1e-06 0.014791</pose>
-          <velocity>7e-05 0.000803 -0.086596 -0.002393 9.9e-05 -0.013045</velocity>
-          <acceleration>0 0 0 0 -0 0</acceleration>
-          <wrench>0 0 0 0 -0 0</wrench>
-        </link>
-      </model>
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
@@ -3348,610 +3328,5 @@
         <view_controller>orbit</view_controller>
       </camera>
     </gui>
-    <spherical_coordinates>
-      <surface_model>EARTH_WGS84</surface_model>
-      <latitude_deg>0</latitude_deg>
-      <longitude_deg>0</longitude_deg>
-      <elevation>0</elevation>
-      <heading_deg>0</heading_deg>
-    </spherical_coordinates>
-    <model name='third_robot'>
-      <link name='base_link'>
-        <pose>0 0 0 0 -0 0</pose>
-        <inertial>
-          <pose>4.5e-07 0 7.19999e-07 0 -0 0</pose>
-          <mass>10</mass>
-          <inertia>
-            <ixx>1.00001</ixx>
-            <ixy>0</ixy>
-            <ixz>-3.24e-06</ixz>
-            <iyy>1.00001</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <collision name='base_link_collision'>
-          <pose>0 0 0.35 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>1 0.55 0.4</size>
-            </box>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <bounce/>
-            <friction>
-              <ode/>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-          </surface>
-        </collision>
-        <collision name='base_link_collision_camera_link'>
-          <pose>0.45 0 0.72 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.016667 0.05 0.025</size>
-            </box>
-          </geometry>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode>
-                <mu>0.2</mu>
-                <mu2>0.2</mu2>
-              </ode>
-            </friction>
-            <bounce/>
-          </surface>
-          <surface>
-            <contact>
-              <ode/>
-            </contact>
-            <friction>
-              <ode/>
-            </friction>
-          </surface>
-          <max_contacts>10</max_contacts>
-        </collision>
-        <visual name='base_link_visual'>
-          <pose>0 0 0.55 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/third_robot/third_robot_body.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <visual name='base_link_visual_camera_link'>
-          <pose>0.45 0 0.72 0 -0 0</pose>
-          <geometry>
-            <box>
-              <size>0.0166667 0.05 0.025</size>
-            </box>
-          </geometry>
-          <material>
-            <script>
-              <name>Gazebo/Black</name>
-              <uri>__default__</uri>
-            </script>
-          </material>
-        </visual>
-        <visual name='base_link_visual_front_bottom_lrf'>
-          <pose>0.5 0 0.39 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/LRF/UTM-30LX.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <visual name='base_link_visual_front_top_3durg'>
-          <pose>0.3 0 0.75 -3.14159 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/3DURG/hokuyo3durg.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <visual name='base_link_visual_rear_bottom_lrf'>
-          <pose>-0.45 0 0.35 0 -0 4.13646e-13</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/LRF/UTM-30LX.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <sensor name='camera1' type='camera'>
-          <update_rate>30</update_rate>
-          <camera name='head'>
-            <horizontal_fov>1.39626</horizontal_fov>
-            <image>
-              <width>800</width>
-              <height>800</height>
-              <format>R8G8B8</format>
-            </image>
-            <clip>
-              <near>0.02</near>
-              <far>300</far>
-            </clip>
-            <noise>
-              <type>gaussian</type>
-              <mean>0</mean>
-              <stddev>0.007</stddev>
-            </noise>
-          </camera>
-          <plugin name='camera_controller' filename='libgazebo_ros_camera.so'>
-            <alwaysOn>true</alwaysOn>
-            <updateRate>0.0</updateRate>
-            <cameraName>third_robot/camera1</cameraName>
-            <imageTopicName>image_raw</imageTopicName>
-            <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-            <frameName>camera_link</frameName>
-            <hackBaseline>0.07</hackBaseline>
-            <distortionK1>0.0</distortionK1>
-            <distortionK2>0.0</distortionK2>
-            <distortionK3>0.0</distortionK3>
-            <distortionT1>0.0</distortionT1>
-            <distortionT2>0.0</distortionT2>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose>0.45 0 0.72 0 -0 0</pose>
-        </sensor>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <sensor name='front_bottom_lrf_hokuyo_sensor' type='ray'>
-          <visualize>1</visualize>
-          <update_rate>40</update_rate>
-          <ray>
-            <scan>
-              <horizontal>
-                <samples>720</samples>
-                <resolution>1</resolution>
-                <min_angle>-1.5708</min_angle>
-                <max_angle>1.5708</max_angle>
-              </horizontal>
-            </scan>
-            <range>
-              <min>0.1</min>
-              <max>30</max>
-              <resolution>0.01</resolution>
-            </range>
-            <noise>
-              <type>gaussian</type>
-              <mean>0</mean>
-              <stddev>0.01</stddev>
-            </noise>
-          </ray>
-          <plugin name='gazebo_ros_head_hokuyo_controller' filename='libgazebo_ros_laser.so'>
-            <topicName>/third_robot/laser/base_scan</topicName>
-            <frameName>front_bottom_lrf</frameName>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose>0.5 0 0.39 0 -0 0</pose>
-        </sensor>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <sensor name='openni_camera' type='depth'>
-          <always_on>1</always_on>
-          <visualize>1</visualize>
-          <camera name='__default__'>
-            <horizontal_fov>1.047</horizontal_fov>
-            <image>
-              <width>640</width>
-              <height>480</height>
-              <format>B8G8R8</format>
-            </image>
-            <depth_camera>
-              <output>depths</output>
-            </depth_camera>
-            <clip>
-              <near>0.1</near>
-              <far>100</far>
-            </clip>
-          </camera>
-          <plugin name='onepni_camera_controller' filename='libgazebo_ros_openni_kinect.so'>
-            <alwaysOn>true</alwaysOn>
-            <updateRate>10.0</updateRate>
-            <cameraName>camera</cameraName>
-            <frameName>front_top_3durg_rgbd_optical_frame</frameName>
-            <imageTopicName>rgb/image_raw</imageTopicName>
-            <depthImageTopicName>depth/image_raw</depthImageTopicName>
-            <pointCloudTopicName>depth/points</pointCloudTopicName>
-            <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
-            <depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>
-            <pointCloudCutoff>0.4</pointCloudCutoff>
-            <hackBaseline>0.07</hackBaseline>
-            <distortionK1>0.0</distortionK1>
-            <distortionK2>0.0</distortionK2>
-            <distortionK3>0.0</distortionK3>
-            <distortionT1>0.0</distortionT1>
-            <distortionT2>0.0</distortionT2>
-            <CxPrime>0.0</CxPrime>
-            <Cx>0.0</Cx>
-            <Cy>0.0</Cy>
-            <focalLength>0.0</focalLength>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose>0.4 0 0.75 -3.14159 -0 0</pose>
-        </sensor>
-        <gravity>1</gravity>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <sensor name='rear_bottom_lrf_hokuyo_sensor' type='ray'>
-          <visualize>1</visualize>
-          <update_rate>40</update_rate>
-          <ray>
-            <scan>
-              <horizontal>
-                <samples>720</samples>
-                <resolution>1</resolution>
-                <min_angle>-1.5708</min_angle>
-                <max_angle>1.5708</max_angle>
-              </horizontal>
-            </scan>
-            <range>
-              <min>0.1</min>
-              <max>30</max>
-              <resolution>0.01</resolution>
-            </range>
-            <noise>
-              <type>gaussian</type>
-              <mean>0</mean>
-              <stddev>0.01</stddev>
-            </noise>
-          </ray>
-          <plugin name='gazebo_ros_head_hokuyo_controller' filename='libgazebo_ros_laser.so'>
-            <topicName>/third_robot/laser/base_scan2</topicName>
-            <frameName>rear_bottom_lrf</frameName>
-            <robotNamespace>/</robotNamespace>
-          </plugin>
-          <pose>-0.45 0 0.35 0 -0 -3.14159</pose>
-        </sensor>
-        <kinematic>0</kinematic>
-      </link>
-      <link name='steer_left'>
-        <pose>0.41 0.25 0.3 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <mass>1</mass>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <joint name='base_to_left_front_steer' type='revolute'>
-        <child>steer_left</child>
-        <parent>base_link</parent>
-        <axis>
-          <xyz>0 0 1</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics/>
-        </axis>
-      </joint>
-      <link name='left_front_wheel'>
-        <pose>0.41 0.25 0.14 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <mass>1</mass>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <collision name='left_front_wheel_collision'>
-          <pose>0 0 0 1.5708 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <length>0.07</length>
-              <radius>0.14</radius>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <bounce/>
-            <friction>
-              <ode/>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-          </surface>
-        </collision>
-        <visual name='left_front_wheel_visual'>
-          <pose>0 0 0 -3.14159 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/third_robot/third_robot_wheel.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <joint name='base_to_left_front_wheel' type='revolute'>
-        <child>left_front_wheel</child>
-        <parent>steer_left</parent>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics/>
-        </axis>
-      </joint>
-      <link name='left_rear_wheel'>
-        <pose>-0.38 0.25 0.14 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <mass>1</mass>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <collision name='left_rear_wheel_collision'>
-          <pose>0 0 0 1.5708 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <length>0.07</length>
-              <radius>0.14</radius>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <bounce/>
-            <friction>
-              <ode/>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-          </surface>
-        </collision>
-        <visual name='left_rear_wheel_visual'>
-          <pose>0 0 0 -3.14159 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/third_robot/third_robot_wheel.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <joint name='base_to_left_rear_wheel' type='revolute'>
-        <child>left_rear_wheel</child>
-        <parent>base_link</parent>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics/>
-        </axis>
-      </joint>
-      <link name='steer_right'>
-        <pose>0.41 -0.25 0.3 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <mass>1</mass>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <joint name='base_to_right_front_steer' type='revolute'>
-        <child>steer_right</child>
-        <parent>base_link</parent>
-        <axis>
-          <xyz>0 0 1</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics/>
-        </axis>
-      </joint>
-      <link name='right_front_wheel'>
-        <pose>0.41 -0.25 0.14 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <mass>1</mass>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <collision name='right_front_wheel_collision'>
-          <pose>0 0 0 1.5708 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <length>0.07</length>
-              <radius>0.14</radius>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <bounce/>
-            <friction>
-              <ode/>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-          </surface>
-        </collision>
-        <visual name='right_front_wheel_visual'>
-          <pose>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/third_robot/third_robot_wheel.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <joint name='base_to_right_front_wheel' type='revolute'>
-        <child>right_front_wheel</child>
-        <parent>steer_right</parent>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics/>
-        </axis>
-      </joint>
-      <link name='right_rear_wheel'>
-        <pose>-0.38 -0.25 0.14 0 -0 0</pose>
-        <inertial>
-          <pose>0 0 0 0 -0 0</pose>
-          <mass>1</mass>
-          <inertia>
-            <ixx>1</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>1</iyy>
-            <iyz>0</iyz>
-            <izz>1</izz>
-          </inertia>
-        </inertial>
-        <collision name='right_rear_wheel_collision'>
-          <pose>0 0 0 1.5708 -0 0</pose>
-          <geometry>
-            <cylinder>
-              <length>0.07</length>
-              <radius>0.14</radius>
-            </cylinder>
-          </geometry>
-          <max_contacts>10</max_contacts>
-          <surface>
-            <bounce/>
-            <friction>
-              <ode/>
-            </friction>
-            <contact>
-              <ode/>
-            </contact>
-          </surface>
-        </collision>
-        <visual name='right_rear_wheel_visual'>
-          <pose>0 0 0 0 -0 0</pose>
-          <geometry>
-            <mesh>
-              <scale>1 1 1</scale>
-              <uri>/home/morita/Documents/dev/ros/tc2016_ws/src/third_robot_pkg/third_robot_description/meshes/third_robot/third_robot_wheel.dae</uri>
-            </mesh>
-          </geometry>
-        </visual>
-        <velocity_decay>
-          <linear>0</linear>
-          <angular>0</angular>
-        </velocity_decay>
-        <self_collide>0</self_collide>
-        <kinematic>0</kinematic>
-        <gravity>1</gravity>
-      </link>
-      <joint name='base_to_right_rear_wheel' type='revolute'>
-        <child>right_rear_wheel</child>
-        <parent>base_link</parent>
-        <axis>
-          <xyz>0 1 0</xyz>
-          <limit>
-            <lower>-1e+16</lower>
-            <upper>1e+16</upper>
-          </limit>
-          <dynamics/>
-        </axis>
-      </joint>
-      <static>0</static>
-      <plugin name='gazebo_ros_control' filename='libgazebo_ros_control.so'>
-        <robotSimType>steer_bot_hardware_gazebo/SteerBotHardwareGazebo</robotSimType>
-        <robotNamespace>/</robotNamespace>
-      </plugin>
-      <pose>0 0 0 0 -0 0</pose>
-    </model>
   </world>
 </sdf>
