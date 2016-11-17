@@ -4,12 +4,7 @@ Panels:
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Global Options1
-        - /Status1
-        - /RobotModel1
-        - /TF1
         - /TF1/Frames1
-        - /Image_3DSensor1
       Splitter Ratio: 0.5
     Tree Height: 333
   - Class: rviz/Selection
@@ -30,7 +25,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: LaserScanStraight
+    SyncSource: Image_3DSensor
 Visualization Manager:
   Class: ""
   Displays:
@@ -86,7 +81,6 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         left_front_wheel:
           Alpha: 1
           Show Axes: false
@@ -97,6 +91,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
+        merged_lrf:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
         rear_bottom_lrf:
           Alpha: 1
           Show Axes: false
@@ -116,17 +114,14 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         steer_left:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
         steer_right:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-          Value: true
       Name: RobotModel
       Robot Description: robot_description
       TF Prefix: ""
@@ -158,7 +153,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.01
       Style: Flat Squares
-      Topic: /third_robot/laser/base_scan
+      Topic: /cirkit_unit03/laser/base_scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: false
@@ -188,7 +183,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.01
       Style: Points
-      Topic: /third_robot/laser/base_scan1
+      Topic: /cirkit_unit03/laser/base_scan1
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: false
@@ -218,7 +213,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.01
       Style: Flat Squares
-      Topic: /third_robot/laser/base_scan2
+      Topic: /cirkit_unit03/laser/base_scan2
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -252,31 +247,7 @@ Visualization Manager:
         All Enabled: false
         base_link:
           Value: false
-        camera_link:
-          Value: false
-        front_bottom_lrf:
-          Value: false
-        front_top_3durg:
-          Value: false
-        front_top_3durg_rgbd_optical_frame:
-          Value: true
-        left_front_wheel:
-          Value: false
-        left_rear_wheel:
-          Value: false
         odom:
-          Value: false
-        rear_bottom_lrf:
-          Value: false
-        right_front_wheel:
-          Value: false
-        right_rear_wheel:
-          Value: false
-        steer:
-          Value: false
-        steer_left:
-          Value: false
-        steer_right:
           Value: false
       Marker Scale: 1
       Name: TF
@@ -286,32 +257,12 @@ Visualization Manager:
       Tree:
         odom:
           base_link:
-            camera_link:
-              {}
-            front_bottom_lrf:
-              {}
-            front_top_3durg:
-              front_top_3durg_rgbd_optical_frame:
-                {}
-            left_rear_wheel:
-              {}
-            rear_bottom_lrf:
-              {}
-            right_rear_wheel:
-              {}
-            steer:
-              {}
-            steer_left:
-              left_front_wheel:
-                {}
-            steer_right:
-              right_front_wheel:
-                {}
+            {}
       Update Interval: 0
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /third_robot/camera1/image_raw
+      Image Topic: /cirkit_unit03/camera1/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
@@ -426,5 +377,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1680
-  X: 203
-  Y: 319
+  X: 310
+  Y: 209
