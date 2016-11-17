@@ -1,11 +1,11 @@
 <launch>
 
   <!-- Load joint controller configurations from YAML file to parameter server -->
-  <rosparam file="$(find third_robot_gazebo)/config/third_robot_control.yaml" command="load"/>
+  <rosparam file="$(find cirkit_unit03_gazebo)/config/cirkit_unit03_control.yaml" command="load"/>
 
   <!-- load the controllers -->
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
-      output="screen" ns="/third_robot"
+      output="screen" ns="/cirkit_unit03"
       args="joint_state_controller"/>
   <!--
       args="joint_state_controller
@@ -17,7 +17,7 @@
   <!-- convert joint states to TF transforms for rviz, etc -->
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
 	respawn="false" output="screen">
-    <remap from="/joint_states" to="/third_robot/joint_states" />
+    <remap from="/joint_states" to="/cirkit_unit03/joint_states" />
   </node>
 
 </launch>
