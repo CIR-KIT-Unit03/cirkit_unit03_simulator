@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package>
-  <name>third_robot_gazebo</name>
+  <name>cirkit_unit03_gazebo</name>
   <version>0.0.0</version>
-  <description>The third_robot_gazebo package</description>
+  <description>The cirkit_unit03_gazebo package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
   <!-- Example:  -->
