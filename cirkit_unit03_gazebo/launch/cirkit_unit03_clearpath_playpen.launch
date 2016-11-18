@@ -9,17 +9,17 @@
 
   <!-- steer bot を使うときはここで読まないといけない -->
   <!--
-  <rosparam file="$(find third_robot_gazebo)/config/third_robot_steer_drive_controller.yaml" command="load"/>
-  <rosparam file="$(find third_robot_gazebo)/config/pids.yaml" command="load"/>
+  <rosparam file="$(find cirkit_unit03_gazebo)/config/cirkit_unit03_steer_drive_controller.yaml" command="load"/>
+  <rosparam file="$(find cirkit_unit03_gazebo)/config/pids.yaml" command="load"/>
   -->
   <rosparam file="$(find steer_bot_hardware_gazebo)/config/joints.yaml" command="load"/>
   <rosparam file="$(find steer_bot_hardware_gazebo)/config/pids.yaml" command="load"/>
 
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-      <!-- <arg name="world_name" value="$(find third_robot_gazebo)/worlds/third_robot_obstacle.world"/>-->
-    <!--<arg name="world_name" value="$(find third_robot_gazebo)/worlds/third_robot.world"/>-->
-    <arg name="world_name" value="$(find third_robot_gazebo)/worlds/powerplant.world"/>
+    <!-- <arg name="world_name" value="$(find cirkit_unit03_gazebo)/worlds/cirkit_unit03_obstacle.world"/>-->
+    <!--<arg name="world_name" value="$(find cirkit_unit03_gazebo)/worlds/cirkit_unit03.world"/>-->
+    <arg name="world_name" value="$(find cirkit_unit03_gazebo)/worlds/clearpath_playpen.world"/>
     <arg name="debug" value="$(arg debug)" />
     <arg name="gui" value="$(arg gui)" />
     <arg name="paused" value="$(arg paused)"/>
@@ -29,13 +29,13 @@
 
   <!-- Load the URDF into the ROS Parameter Server -->
   <param name="robot_description"
-	 command="$(find xacro)/xacro.py '$(find third_robot_description)/urdf/third_robot.xacro'" />
+	 command="$(find xacro)/xacro.py '$(find cirkit_unit03_description)/urdf/cirkit_unit03.xacro'" />
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -model third_robot -param robot_description"/>
+	args="-urdf -model cirkit_unit03 -param robot_description -x -0.4 -y -8.00 -z 1"/>
 
-  <!-- ros_control third_robot launch file -->
-  <!--include file="$(find third_robot_control)/launch/third_robot_control.launch" /-->
+  <!-- ros_control cirkit_unit03 launch file -->
+  <!--include file="$(find steer_drive_controller)/launch/steer_drive_test_setting.launch" /-->
 
 </launch>
