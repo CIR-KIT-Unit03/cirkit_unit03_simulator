@@ -1,3 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(cirkit_unit03_gazebo)
-find_package(catkin REQUIRED)
+find_package(catkin REQUIRED COMPONENTS roslaunch)
+
+roslaunch_add_file_check(test/autorun_gazebo_with_human_launch.test.xml)
+roslaunch_add_file_check(test/autorun_gazebo_world.test.xml)
