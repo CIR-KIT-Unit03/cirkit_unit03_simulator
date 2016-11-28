@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cirkit_unit03_simulator</name>
+  <version>0.1.0</version>
+  <description>
+    This package provides packages for cirkit_unit03_simulator.
+  </description>
+  <maintainer email="k104073r@mail.kyutech.jp">RyodoTanaka</maintainer>
+  <license>BSD</license>
+
+  <url type="repository">https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator.git</url>
+  <url type="bugtracker">https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator/issues</url>
+  <author email="cirkit.infomation@gmail.com">CIR-KIT</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>cirkit_unit03_common</exec_depend>
+  <exec_depend>steer_drive_ros</exec_depend>
+  <exec_depend>ira_laser_tools</exec_depend>
+
+  <export>
+    <metapackage />
+  </export>
+</package>
