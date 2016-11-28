@@ -3,7 +3,7 @@ Gazebo simulation for CIR-KIT-Unit03
 
 ## Installation
 #### **!! CAUTION !! : **DO NOT INSTALL** this repository **ALONE**.  
-We highly recommend install this repository with `[cirkit_unit03_pkg](https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkg)`.
+We highly recommend install this repository with [cirkit_unit03_pkg](https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkg).
 
 #### For the developers only
 ##### 1. Create **catkinized**  workspace.
