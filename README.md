@@ -2,8 +2,8 @@
 Gazebo simulation for CIR-KIT-Unit03
 
 ## Installation
-#### **!! CAUTION !! : DO NOT INSTALL** this repository **ALONE**.  
-We highly recommend install this repository with [cirkit_unit03_pkg](https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkg).
+#### **!! CAUTION !!  DO NOT INSTALL** this repository **ALONE**.  
+We highly recommend install this repository with [cirkit_unit03_pkgs](https://github.com/CIR-KIT-Unit03/cirkit_unit03_pkgs).
 
 #### For the developers only
 ##### 1. Create **catkinized**  workspace.
@@ -16,7 +16,7 @@ $ git clone https://github.com/CIR-KIT-Unit03/cirkit_unit03_simulator.git
 ```bash
 $ cd <catkin_ws>
 $ wstool init src
-$ wstool merge -t src src/cirkit_unit03_pkg/cirkit_unit03_simulator.rosinstall
+$ wstool merge -t src src/cirkit_unit03_simulator/cirkit_unit03_simulator.rosinstall
 $ wstool update -t src
 ```
 ##### 4. Download depended packages by rosdep.
