@@ -13,9 +13,7 @@
   <author email="cirkit.infomation@gmail.com">CIR-KIT</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <exec_depend>cirkit_unit03_common</exec_depend>
-  <exec_depend>steer_drive_ros</exec_depend>
-  <exec_depend>ira_laser_tools</exec_depend>
+  <exec_depend>cirkit_unit03_gazebo</exec_depend>
 
   <export>
     <metapackage />
