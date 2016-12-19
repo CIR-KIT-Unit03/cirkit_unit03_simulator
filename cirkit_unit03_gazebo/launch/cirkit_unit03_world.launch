@@ -18,8 +18,8 @@
     <arg name="headless" value="$(arg headless)"/>
   </include>
 
-  <!-- Load the URDF into the ROS Parameter Server -->
-  <include file="$(find cirkit_unit03_description)/launch/description.launch"/>
+  <!-- Load the URDF for GAZEBO into the ROS Parameter Server -->
+  <include file="$(find cirkit_unit03_gazebo)/launch/description.gazebo.launch"/>
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
   <rosparam file="$(find cirkit_unit03_gazebo)/config/cirkit_unit03_hardware_gazebo.yaml" command="load"/>
