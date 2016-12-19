@@ -1,5 +1,9 @@
 # cirkit_unit03_simulator [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_simulator.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_simulator) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03_simulator)
-Gazebo simulation for CIR-KIT-Unit03
+
+## Summary
+Simulator ROS packages for the CIR-KIT-Unit03.
+
+- cirkit_unit03_gazebo : Gazebo plugin definitions and extensions to the robot URDF.
 
 ## Installation
 #### **!! CAUTION !!  DO NOT INSTALL** this repository **ALONE**.  
