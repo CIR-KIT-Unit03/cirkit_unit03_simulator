@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot name="cirkit_unit03_gazebo" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find cirkit_unit03_description)/urdf/cirkit_unit03.xacro" />
+  <xacro:include filename="$(find cirkit_unit03_gazebo)/urdf/cirkit_unit03.gazebo.xacro" />
+
+  <!-- Gazebo plugin for ROS Control -->
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/</robotNamespace>
+      <robotSimType>steer_bot_hardware_gazebo/SteerBotHardwareGazebo</robotSimType>
+    </plugin>
+  </gazebo>
+
+  <xacro:cirkit_unit03_robot />
+
+  <xacro:cirkit_unit03_robot_gazebo />
+
+</robot>
