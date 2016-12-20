@@ -3,6 +3,8 @@
 ## Summary
 Simulator ROS packages for the CIR-KIT-Unit03.
 
+For CIR-KIT-Unit03 instructions and tutorials, please see http://wiki.ros.org/Robots/CIR-KIT-Unit03.
+
 - cirkit_unit03_gazebo : Gazebo plugin definitions and extensions to the robot URDF.
 
 ## Installation
