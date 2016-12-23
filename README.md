@@ -1,4 +1,4 @@
-# cirkit_unit03_simulator [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_simulator.svg?branch)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_simulator) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03_simulator)
+# cirkit_unit03_simulator [![Build Status](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_simulator.svg?branch=indigo-devel)](https://travis-ci.org/CIR-KIT-Unit03/cirkit_unit03_simulator) [![Slack](https://img.shields.io/badge/Slack-CIR--KIT-blue.svg)](http://cir-kit.slack.com/messages/unit03_simulator)
 
 ## Summary
 Simulator ROS packages for the CIR-KIT-Unit03.
