@@ -12,5 +12,5 @@
     version: master
 - git:
     local-name: ira_laser_tools
-    uri: https://github.com/AriYu/ira_laser_tools.git
+    uri: https://github.com/MoriKen/ira_laser_tools.git
     version: fix-eigen3cmake
