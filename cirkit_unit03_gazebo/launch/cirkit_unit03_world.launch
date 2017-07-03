@@ -19,14 +19,19 @@
   </include>
 
   <!-- Load the URDF for GAZEBO into the ROS Parameter Server -->
-  <include file="$(find cirkit_unit03_gazebo)/launch/description.gazebo.launch"/>
+  <include file="$(find timed_roslaunch)/launch/timed_roslaunch.launch">
+    <arg name="time" value="3" />
+    <arg name="pkg" value="cirkit_unit03_gazebo" />
+    <arg name="file" value="description.gazebo.launch" />
+    <arg name="node_name" value="timed_description_gazebo" />
+  </include>
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
-  <rosparam file="$(find cirkit_unit03_gazebo)/config/cirkit_unit03_hardware_gazebo.yaml" command="load"/>
-  <rosparam file="$(find cirkit_unit03_gazebo)/config/pids.yaml" command="load"/>
-
-  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
-  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -model cirkit_unit03 -param robot_description"/>
+  <include file="$(find timed_roslaunch)/launch/timed_roslaunch.launch">
+    <arg name="time" value="4" />
+    <arg name="pkg" value="cirkit_unit03_gazebo" />
+    <arg name="file" value="cirkit_unit03_spawn.launch" />
+    <arg name="node_name" value="timed_spawn_gazebo" />
+  </include>
 
 </launch>
