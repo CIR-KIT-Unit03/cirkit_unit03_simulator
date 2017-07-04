@@ -5,7 +5,8 @@
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-        args="-urdf -model cirkit_unit03 -param robot_description -x -0.4 -y -8.0 -z 0.3 -R 0 -P 0 -Y -0"/>
+        args="-urdf -model cirkit_unit03 -param robot_description -x 5.2 -y -4.4 -z 0.03 -R 0 -P 0 -Y 1.6"/>
+        <!--args="-urdf -model cirkit_unit03 -param robot_description -x -0.4 -y -8.0 -z 0.3 -R 0 -P 0 -Y -0"/>-->
         <!--args="-urdf -model cirkit_unit03 -param robot_description -x 0 -y 0 -z 0 -R 0 -P 0 -Y 0"/>-->
 
 </launch>
